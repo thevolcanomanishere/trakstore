@@ -1,0 +1,37 @@
+{
+  "name": "trakstore",
+  "version": "1.0.0",
+  "description": "Music app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevolcanomanishere/trakstore.git"
+  },
+  "author": "Alex McGonagle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thevolcanomanishere/trakstore/issues"
+  },
+  "homepage": "https://github.com/thevolcanomanishere/trakstore#readme",
+   "dependencies": {
+    "async": "~0.2.8",
+    "crypto": "0.0.3",
+    "debug": "^2.2.0",
+    "express": "~3.2.4",
+    "jackrabbit": "^4.3.0",
+    "jade": "^1.11.0",
+    "jwt-simple": "^0.5.0",
+    "kue": "^0.10.5",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.4.12",
+    "nodemon": "^1.9.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "socket.io": "~0.9.14",
+    "underscore": "^1.8.3"
+  }
+}
